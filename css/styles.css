@@ -1,6 +1,7 @@
 .body {
-    background-color: #fff;
-    font-family: "Roboto", sans-serif;
+        background-color: #fff;
+        font-family: "Roboto", sans-serif;
+        color: #434455;
 }
 
 .nav-text {
@@ -11,6 +12,11 @@
         color: #2e2f42;
 }
 
+.nav-text:hover,
+.nav-text:focus {
+        color: #404bbf;
+}
+
 .nav-adress {
         font-weight: 400;
         font-size: 16px;
@@ -19,10 +25,14 @@
         color: #434455;
 }
 
+.nav-adress:hover,
+.nav-adress:focus {
+        color: #404bbf;
+}
 .main-title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -30,12 +40,18 @@
 }
 
 .button {
-    background-color: #4d5ae5;
+        background-color: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+        background-color: #404BBF;
 }
 
 h2 {
@@ -80,11 +96,11 @@ h2 {
 }
 
 .team {
-    background-color: #f4f4fd;
+        background-color: #f4f4fd;
 }
 
 .footer {
-    background-color: #2e2f42;
+        background-color: #2e2f42;
 }
 
 .footer .footer-text {
@@ -109,4 +125,25 @@ h2 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.logo {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.logo-part-two {
+        color: #2e2f42;
+}
+
+.contacts {
+        font-style: normal;
+}
+
+.section-one {
+        background-color: #2e2f42;
 }

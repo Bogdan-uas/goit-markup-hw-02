@@ -130,10 +130,12 @@ h2 {
 .logo {
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+
 }
 
 .logo-part-two {
@@ -146,4 +148,15 @@ h2 {
 
 .section-one {
         background-color: #2e2f42;
+}
+
+.team-main-title {
+        line-height: 1.11;
+        text-transform: capitalize;
+        background-color: #fff;
+}
+
+.portfolio-main-title {
+        line-height: 1.11;
+        text-transform: capitalize;
 }

@@ -153,10 +153,14 @@ h2 {
 .team-main-title {
         line-height: 1.11;
         text-transform: capitalize;
-        background-color: #fff;
+        background-color: #FFFFFF;
 }
 
 .portfolio-main-title {
         line-height: 1.11;
         text-transform: capitalize;
+}
+
+.logo-part-two-two {
+        color: #f4f4fd;
 }
